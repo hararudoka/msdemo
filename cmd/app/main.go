@@ -1,5 +1,17 @@
 package main
 
+import (
+	"encoding/json"
+	"fmt"
+	"io"
+	"log"
+	"net/http"
+
+	"github.com/hararudoka/msdemo/internal/model"
+)
+
 func main() {
-	url := "https://online.moysklad.ru/api/remap/1.2/entity/employee"
+	
+
+	fmt.Println(data.Rows[0].Name)
 }
